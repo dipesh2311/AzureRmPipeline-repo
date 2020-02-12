@@ -18,7 +18,7 @@ steps:
     action: 'Create Or Update Resource Group'
     resourceGroupName: 'AzurePipeline-rg'
     location: 'East US'
-    templateLocation: 'URL of the file'
+    templateLocation: 'Linked artifacts'
     csmFile: 'CreateAzureStorage/azuredeploy.json'
     deploymentMode: 'Incremental'
 
