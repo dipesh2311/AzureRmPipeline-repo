@@ -17,8 +17,8 @@ steps:
     subscriptionName: '3aca694e-7c37-402b-baeb-e1e4436a9016'
     action: 'Create Or Update Resource Group'
     resourceGroupName: 'AzurePipeline-rg'
-    location: 'East US'
-    templateLocation: 'CreateAzureStorage/azuredeploy.json'
+    location: 'Central US'
+    templateLocation: 'Linked artifact'
     csmFile: 'CreateAzureStorage/azuredeploy.json'
     deploymentMode: 'Incremental'
 
